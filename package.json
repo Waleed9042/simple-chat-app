@@ -1,0 +1,29 @@
+{
+  "name": "simple-chat-app",
+  "version": "1.0.0",
+  "description": "This is a simple implementation of real time chat using websockets protocol and node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waleed9042/simple-chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waleed9042/simple-chat-app/issues"
+  },
+  "homepage": "https://github.com/Waleed9042/simple-chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
